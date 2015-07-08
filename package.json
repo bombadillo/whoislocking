@@ -1,0 +1,21 @@
+{
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/bombadillo/whoislocking.git"
+  },
+  "devDependencies": {
+    "coffee-script": "1.9.0"
+  },
+  "dependencies": {
+    "oracledb": ""
+  },
+  "scripts": {
+    "preinstall": "",
+    "postinstall": "",
+    "hottestcoffee": "coffee --watch --compile --output spec/ spec/",
+    "test": "jasmine",
+    "hotcoffee": "coffee -cwo lib/ lib/",
+    "hottests": "coffee -cwo spec/ spec/",
+    "dev": ""
+  }
+}
