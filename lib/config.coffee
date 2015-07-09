@@ -1,7 +1,7 @@
 class Config
-  OracleUser: "mackays"
-  OraclePass: "mackays"
-  OracleCon: "oratest1:1522/test.ad.mackaysstores.co.uk:POOLED"
+  OracleUser: ""
+  OraclePass: ""
+  OracleCon: ""
   LockSql: 'SELECT a.session_id,a.oracle_username, a.os_user_name,
             b.owner "OBJECT OWNER", b.object_name,b.object_type,a.locked_mode
             FROM V$Locked_Object A, All_Objects B
