@@ -18,9 +18,8 @@ class WhoIsLocking
     FileWriter.writeStringToFile header, @fileName
 
   reportLocking: ->
-    setInterval ( =>
-      @generateReport()
-    ), 4000
+    @generateReport()
+
 
   generateReport: ->
     @getFileName()
